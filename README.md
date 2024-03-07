@@ -63,10 +63,10 @@ Vector = RBX.Using.Vector
 
 | Using.UI |
 | ------------- |
-| `.getScreenSize()`: Vector2 |
-| `.offsetToScale(scale, proportions)`: Vector2 |
-| `.scaleToOffset(offset, proportions)`: Vector2 |
-| `.vec2UDim(vector2, inScale)`: UDim2 |
+| `.getScreenSize()`: Vector2 - *Returns screen viewport size* |
+| `.offsetToScale(offset, proportions)`: Vector2 - *Returns the UI offset as scale* |
+| `.scaleToOffset(scale, proportions)`: Vector2 - *Returns the UI scale as offset* |
+| `.vec2UDim(vector2, inScale)`: UDim2 - *Returns converted UDim2 from Vector2* |
 
 | Using.Animator |
 | ------------- |
