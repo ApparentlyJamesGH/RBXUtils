@@ -72,3 +72,4 @@ Vector = RBX.Using.Vector
 | Using.World |
 | ------------- |
 | `.getMousePositionData()`: Array |
+| `.snapToRelative(modelToSnap, snapAnchor, targetPosition)`: Vector3 |
