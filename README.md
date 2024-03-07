@@ -10,7 +10,7 @@ Made by [ApparentlyJames](https://apparentlyjames.carrd.co/)
 Before you start, you need to require the module as any other. To do that, simply use ```require()``` and put the path to RBXScript inside the brackets.
 ```lua
 local RBXScript = ... -- Path to RBXScript,
-local RBX = require(RBXScript or 16656051786)
+local RBX = require(RBXScript)
 ```
 
 > [!NOTE]
