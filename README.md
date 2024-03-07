@@ -13,6 +13,9 @@ local RBXScript = ... -- Path to RBXScript,
 local RBX = require(RBXScript or 16656051786)
 ```
 
+> [!NOTE]
+> Inporting the RBXScript module manually is not mandatory, if you wish, you can just replace the `require()` function argument like this: `require(16656051786)`
+
 ## Using categories
 After requiring the module, you can use one of the function libraries built-in:
 
