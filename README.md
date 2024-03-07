@@ -4,6 +4,6 @@ RBXScript is a versatile Lua module for Roblox, offering a range of utility func
 ## Requiring the module
 Before you start, you need to require the module as any other. To do that, simply use ```require()``` and put the path to RBXScript inside the brackets.
 ```lua
-Local RBXScript = ... -- Path to RBXScript
+local RBXScript = ... -- Path to RBXScript
 local RBX = require(RBXScript)
 ```
