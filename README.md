@@ -44,7 +44,7 @@ Vector = RBX.Using.Vector
 | `.direction(position0, position1)`: Vector3 - *Returns the direction from position0 to position1* |
 | `.limit(xPosition, minPosition, maxPosition)`: Vector3 - *Limits the XYZ position values similairly to using math.clamp* |
 
-| Using.Random |
+| Using.Random | |
 | ------------- | ------------- |
 | `.range(min, max, (optional) seed)`: number | *Returns a random number between min and max* |
 
