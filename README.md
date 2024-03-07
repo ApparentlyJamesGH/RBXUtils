@@ -32,6 +32,7 @@ Vector = RBX.Using.Vector
 | `.distance(position0, position1)`: number |
 | `.pathDistance(position0, position1, (optional) agentOptions)`: number |
 | `.direction(position0, position1)`: Vector3 |
+| `.limit(xPosition, minPosition, maxPosition)`: Vector3 |
 
 | Using.Random |
 | ------------- |
