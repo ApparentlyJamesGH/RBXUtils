@@ -28,6 +28,7 @@ Vector = RBX.Using.Vector
 | Using.Vector |
 | ------------- |
 | `.distance(position0, position1)`: Vector3 |
+| `.direction(position0, position1)`: Vector3 |
 
 | Using.Random |
 | ------------- |
