@@ -74,6 +74,7 @@ Vector = RBX.Using.Vector
 | `.offsetToScale(offset, proportions)`: Vector2 | *Returns the UI offset as scale* |
 | `.scaleToOffset(scale, proportions)`: Vector2 | *Returns the UI scale as offset* |
 | `.vec2UDim(vector2, inScale)`: UDim2 | *Returns converted UDim2 from Vector2* |
+| `.notify(title, text, duration, icon)`: nil | *Sends a Roblox Core notification to client* |
 
 ### Using.Animator
 | Function | Description |
