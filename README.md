@@ -45,7 +45,7 @@ Vector = RBX.Using.Vector
 
 | Using.Object |
 | ------------- |
-| `.findAll(name, searchIn)`: Instance |
+| `.findAll(name, searchIn)`: Instance > epic test |
 | `.findAllFromClass(class, searchIn)`: Instance |
 | `.findAllWithTag(tag, searchIn)`: Instance |
 | `.findAllWithAttribute(attribute, searchIn, (optional) attributeValue)`: Instance |
