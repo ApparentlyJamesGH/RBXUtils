@@ -77,5 +77,5 @@ Vector = RBX.Using.Vector
 
 | Using.World |
 | ------------- |
-| `.getMousePositionData()`: Array - *Returns RaycastResult of mousePosition in 3D space* |
+| `.getMousePositionData()`: RaycastResult - *Returns RaycastResult of mousePosition in 3D space* |
 | `.snapToRelative(modelToSnap, snapAnchor, targetPosition)`: Vector3 - *Moves model to targetPosition (relative to snapAnchor, instead of PrimaryPart)* |
