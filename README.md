@@ -37,3 +37,9 @@ Vector = RBX.Using.Vector
 | ------------- |
 | `.findAll(name, searchIn)`: Instance |
 | `.findAllFromClass(class, searchIn)`: Instance |
+| `.findAllWithTag(tag, searchIn)`: Instance |
+| `.findAllWithAttribute(attribute, searchIn, (optional) attributeValue)`: Instance |
+| `.find(name, searchIn)`: Instance |
+| `.findFromClass(class, searchIn)`: Instance |
+| `.findWithTag(tag, searchIn)`: Instance |
+| `.findWithAttribute(attribute, searchIn, (optional) attributeValue)`: Instance |
