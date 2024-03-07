@@ -44,3 +44,18 @@ Vector = RBX.Using.Vector
 | `.findFromClass(class, searchIn)`: Instance |
 | `.findWithTag(tag, searchIn)`: Instance |
 | `.findWithAttribute(attribute, searchIn, (optional) attributeValue)`: Instance |
+| `.destroy(object, (optional) destroyAfter)`: nil |
+
+| Using.UI |
+| ------------- |
+| `.getScreenSize()`: Vector2 |
+| `.offsetToScale(scale, proportions)`: Vector2 |
+| `.scaleToOffset(offset, proportions)`: Vector2 |
+| `.vec2UDim(vector2, inScale)`: UDim2 |
+
+| Using.Animator |
+| ------------- |
+| `.getRigAnimator()`: Animator |
+| `.createRigAnimator(rig)`: Animator |
+| `.loadPlay(animator, animation, (optional) ...)`: Animation |
+| `.load(animator, animation)`: Animation |
