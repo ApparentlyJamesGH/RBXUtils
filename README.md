@@ -7,3 +7,18 @@ Before you start, you need to require the module as any other. To do that, simpl
 local RBXScript = ... -- Path to RBXScript
 local RBX = require(RBXScript)
 ```
+
+## Using categories
+After requiring the module, you can use one of the function libraries built-in:
+
+| Built-in Using Categories |
+| ------------- |
+| Vector |
+| Random |
+| UI |
+| Object |
+| Animator |
+
+```lua
+Vector = RBX.Using.Vector
+```
