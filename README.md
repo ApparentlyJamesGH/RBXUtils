@@ -30,6 +30,9 @@ After requiring the module, you can use one of the function libraries built-in:
 Vector = RBX.Using.Vector
 ```
 
+> [!TIP]
+> Below is a full list of functions and their descriptions.
+
 ## Function References
 
 | Using.Vector |
@@ -45,7 +48,7 @@ Vector = RBX.Using.Vector
 
 | Using.Object |
 | ------------- |
-| `.findAll(name, searchIn)`: Instance > epic test |
+| `.findAll(name, searchIn)`: Instance |
 | `.findAllFromClass(class, searchIn)`: Instance |
 | `.findAllWithTag(tag, searchIn)`: Instance |
 | `.findAllWithAttribute(attribute, searchIn, (optional) attributeValue)`: Instance |
