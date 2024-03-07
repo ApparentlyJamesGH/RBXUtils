@@ -14,7 +14,7 @@ local RBX = require(RBXScript)
 ```
 
 > [!NOTE]
-> Inporting the RBXScript module manually is not mandatory, if you wish, you can just replace the `require()` function argument like this: `require(16656051786)`
+> Importing the RBXScript module manually is not mandatory, if you wish, you can just replace the `require()` function argument like this: `require(16656051786)`. (Using the ID instead of the ModuleScript keeps it always up-to-date)
 
 ## Using categories
 After requiring the module, you can use one of the function libraries built-in:
