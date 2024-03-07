@@ -24,6 +24,7 @@ After requiring the module, you can use one of the function libraries built-in:
 | Object |
 | Animator |
 | World |
+| All (Not Recommended) |
 
 ```lua
 Vector = RBX.Using.Vector
