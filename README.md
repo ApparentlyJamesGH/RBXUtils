@@ -40,26 +40,26 @@ Vector = RBX.Using.Vector
 
 | Using.Vector |
 | ------------- |
-| `.distance(position0, position1)`: number |
-| `.pathDistance(position0, position1, (optional) agentOptions)`: number |
-| `.direction(position0, position1)`: Vector3 |
-| `.limit(xPosition, minPosition, maxPosition)`: Vector3 |
+| `.distance(position0, position1)`: number *Returns distance between 2 positions* |
+| `.pathDistance(position0, position1, (optional) agentOptions)`: number *Returns distance between 2 positions (using PathfindingService)* |
+| `.direction(position0, position1)`: Vector3 *Returns the direction from position0 to position1* |
+| `.limit(xPosition, minPosition, maxPosition)`: Vector3 *Limits the XYZ position values similairly to using math.clamp* |
 
 | Using.Random |
 | ------------- |
-| `.range(min, max, (optional) seed)`: number |
+| `.range(min, max, (optional) seed)`: number *Returns a random number between min and max* |
 
 | Using.Object |
 | ------------- |
-| `.findAll(name, searchIn)`: Instance |
-| `.findAllFromClass(class, searchIn)`: Instance |
-| `.findAllWithTag(tag, searchIn)`: Instance |
-| `.findAllWithAttribute(attribute, searchIn, (optional) attributeValue)`: Instance |
-| `.find(name, searchIn)`: Instance |
-| `.findFromClass(class, searchIn)`: Instance |
-| `.findWithTag(tag, searchIn)`: Instance |
-| `.findWithAttribute(attribute, searchIn, (optional) attributeValue)`: Instance |
-| `.destroy(object, (optional) destroyAfter)`: nil |
+| `.findAll(name, searchIn)`: Instance *Finds all instances with input name* |
+| `.findAllFromClass(class, searchIn)`: Instance *Finds all instances from input class* |
+| `.findAllWithTag(tag, searchIn)`: Instance *Finds all instances with input tag* |
+| `.findAllWithAttribute(attribute, searchIn, (optional) attributeValue)`: Instance *Finds all instances with input attribute (and their value optionally)* |
+| `.find(name, searchIn)`: Instance *Finds instance with input name* |
+| `.findFromClass(class, searchIn)`: Instance *Finds instance from input class* |
+| `.findWithTag(tag, searchIn)`: Instance *Finds instance with input tag* |
+| `.findWithAttribute(attribute, searchIn, (optional) attributeValue)`: Instance *Finds instance with input attribute (and their value optionally)* |
+| `.destroy(object, (optional) destroyAfter)`: nil *Destroys object (after x seconds)* |
 
 | Using.UI |
 | ------------- |
