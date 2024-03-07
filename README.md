@@ -3,6 +3,7 @@ RBXScript is a versatile Lua module for Roblox, offering a range of utility func
 
 | Get the model here |
 | ------------- |
+
 Made by [ApparentlyJames](https://apparentlyjames.carrd.co/)
 
 ## Requiring the module
