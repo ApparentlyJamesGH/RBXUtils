@@ -52,6 +52,7 @@ Vector = RBX.Using.Vector
 | Function | Description |
 | ------------- | ------------- |
 | `.range(min, max, (optional) seed)`: number | *Returns a random number between min and max* |
+| `.object(objectsList, (optional) recursive)`: Instance | *Returns a random object from given objectsList* |
 
 ### Using.Object
 | Function | Description |
