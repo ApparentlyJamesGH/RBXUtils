@@ -37,14 +37,16 @@ Vector = RBX.Using.Vector
 
 ## Function References
 
-| Using.Vector |
-| ------------- |
-| `.distance(position0, position1)`: number - *Returns distance between 2 positions* |
-| `.pathDistance(position0, position1, (optional) agentOptions)`: number - *Returns distance between 2 positions (using PathfindingService)* |
-| `.direction(position0, position1)`: Vector3 - *Returns the direction from position0 to position1* |
-| `.limit(xPosition, minPosition, maxPosition)`: Vector3 - *Limits the XYZ position values similairly to using math.clamp* |
+### Using.Vector
+| Function | Description |
+| ------------- | ------------- |
+| `.distance(position0, position1)`: number | *Returns distance between 2 positions* |
+| `.pathDistance(position0, position1, (optional) agentOptions)`: number | *Returns distance between 2 positions (using PathfindingService)* |
+| `.direction(position0, position1)`: Vector3 | *Returns the direction from position0 to position1* |
+| `.limit(xPosition, minPosition, maxPosition)`: Vector3 | *Limits the XYZ position values similairly to using math.clamp* |
 
-| Using.Random | Description |
+### Using.Random
+| Function | Description |
 | ------------- | ------------- |
 | `.range(min, max, (optional) seed)`: number | *Returns a random number between min and max* |
 
