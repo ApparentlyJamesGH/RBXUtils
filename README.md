@@ -23,6 +23,7 @@ After requiring the module, you can use one of the function libraries built-in:
 | UI |
 | Object |
 | Animator |
+| World |
 
 ```lua
 Vector = RBX.Using.Vector
@@ -66,3 +67,7 @@ Vector = RBX.Using.Vector
 | `.createRigAnimator(rig)`: Animator |
 | `.loadPlay(animator, animation, (optional) ...)`: Animation |
 | `.load(animator, animation)`: Animation |
+
+| Using.World |
+| ------------- |
+| `.getMousePositionData()`: Array |
