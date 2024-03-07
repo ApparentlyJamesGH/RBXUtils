@@ -27,13 +27,13 @@ Vector = RBX.Using.Vector
 
 | Using.Vector |
 | ------------- |
-| .distance(position0, position1): Vector3 |
+| `.distance(position0, position1)`: Vector3 |
 
 | Using.Random |
 | ------------- |
-| .range(min, max, (optional) seed): number |
+| `.range(min, max, (optional) seed)`: number |
 
 | Using.Object |
 | ------------- |
-| .findAll(name, searchIn): Instance |
-| .findAllFromClass(class, searchIn): Instance |
+| `.findAll(name, searchIn)`: Instance |
+| `.findAllFromClass(class, searchIn)`: Instance |
