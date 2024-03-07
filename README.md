@@ -22,3 +22,18 @@ After requiring the module, you can use one of the function libraries built-in:
 ```lua
 Vector = RBX.Using.Vector
 ```
+
+## Function References
+
+| Using.Vector |
+| ------------- |
+| .distance(position0, position1): Vector3 |
+
+| Using.Random |
+| ------------- |
+| .range(min, max, (optional) seed): number |
+
+| Using.Object |
+| ------------- |
+| .findAll(name, searchIn): Instance |
+| .findAllFromClass(class, searchIn): Instance |
