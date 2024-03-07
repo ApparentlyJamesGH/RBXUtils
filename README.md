@@ -37,7 +37,7 @@ Vector = RBX.Using.Vector
 
 ## Function References
 
-### Using.Vector
+> ### Using.Vector
 | Function | Description |
 | ------------- | ------------- |
 | `.distance(position0, position1)`: number | *Returns distance between 2 positions* |
