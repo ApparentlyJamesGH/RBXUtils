@@ -45,8 +45,8 @@ Vector = RBX.Using.Vector
 | `.limit(xPosition, minPosition, maxPosition)`: Vector3 - *Limits the XYZ position values similairly to using math.clamp* |
 
 | Using.Random |
-| ------------- |
-| `.range(min, max, (optional) seed)`: number - *Returns a random number between min and max* |
+| ------------- | ------------- |
+| `.range(min, max, (optional) seed)`: number | *Returns a random number between min and max* |
 
 | Using.Object |
 | ------------- |
