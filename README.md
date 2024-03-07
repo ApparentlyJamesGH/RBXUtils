@@ -1,5 +1,5 @@
-# RBXScript v1
-RBXScript is a versatile Lua module for Roblox, offering a range of utility functions to help do scripting tasks. From simplifying common operations to providing specialized tools for game mechanics, user interfaces, and more, it enables developers to accelerate game creation. RBXScript serves as a time-saving toolkit, allowing developers to easily use built-in functions, without needing to make custom ones that would use more time to make.
+# RBXUtils v1
+RBXUtils is a versatile Lua module for Roblox, offering a range of utility functions to help do scripting tasks. From simplifying common operations to providing specialized tools for game mechanics, user interfaces, and more, it enables developers to accelerate game creation. RBXScript serves as a time-saving toolkit, allowing developers to easily use built-in functions, without needing to make custom ones that would use more time to make.
 
 | [Get Model on Roblox](https://create.roblox.com/store/asset/16656051786) | [Get Model on Github](https://github.com/ApparentlyJamesGH/RBXScript/releases/latest) |
 | ------------- | ------------- |
@@ -9,12 +9,12 @@ Made by [ApparentlyJames](https://apparentlyjames.carrd.co/)
 ## Requiring the module
 Before you start, you need to require the module as any other. To do that, simply use ```require()``` and put the path to RBXScript inside the brackets.
 ```lua
-local RBXScript = ... -- Path to RBXScript,
-local RBX = require(RBXScript)
+local RBXUtils = ... -- Path to RBXUtils
+local RBX = require(RBXUtils)
 ```
 
 > [!NOTE]
-> Importing the RBXScript module manually is not mandatory, if you wish, you can just replace the `require()` function argument like this: `require(16656051786)`. (Using the ID instead of the ModuleScript keeps it always up-to-date)
+> Importing the RBXUtils module manually is not mandatory, if you wish, you can just replace the `require()` function argument like this: `require(16656051786)`. (Using the ID instead of the ModuleScript keeps it always up-to-date)
 
 ## Using categories
 After requiring the module, you can use one of the function libraries built-in:
