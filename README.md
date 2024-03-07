@@ -28,12 +28,12 @@ After requiring the module, you can use one of the function libraries built-in:
 | Animator |
 | World |
 
-> [!IMPORTANT]
-> Make sure to include this `Using` part, otherwise Roblox will throw an error
-
 ```lua
 Vector = RBX.Using.Vector
 ```
+
+> [!IMPORTANT]
+> Make sure to include this `Using` part, otherwise Roblox will throw an error
 
 > [!TIP]
 > Below is a full list of functions and their descriptions.
