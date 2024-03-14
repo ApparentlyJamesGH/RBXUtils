@@ -1,4 +1,4 @@
-# RBXUtils v1
+# RBXUtils v1.1
 RBXUtils is a versatile Lua module for Roblox, offering a range of utility functions to help do scripting tasks. From simplifying common operations to providing specialized tools for game mechanics, user interfaces, and more, it enables developers to accelerate game creation. RBXUtils serves as a time-saving toolkit, allowing developers to easily use built-in functions, without needing to make custom ones that would use more time to make.
 
 | [Get Model on Roblox](https://create.roblox.com/store/asset/16656051786) | [Get Model on Github](https://github.com/ApparentlyJamesGH/RBXScript/releases/latest) |
@@ -27,6 +27,7 @@ After requiring the module, you can use one of the function libraries built-in:
 | Object |
 | Animator |
 | World |
+| Math |
 
 ```lua
 Vector = RBX.Using.Vector
@@ -89,3 +90,12 @@ Vector = RBX.Using.Vector
 | ------------- | ------------- |
 | `.getMousePositionData()`: RaycastResult | *Returns RaycastResult of mousePosition in 3D space* |
 | `.snapToRelative(modelToSnap, snapAnchor, targetPosition)`: Vector3 | *Moves model to targetPosition (relative to snapAnchor, instead of PrimaryPart)* |
+| `.randomString(length, includeCapitals)`: string | *Returns a randomized string from given length* |
+| `.cframeOrientation(cframe)`: Vector3 | *Returns the XYZ orienation of a CFrame value* |
+| `.match(list, partial)`: array | *Returns name matches from a given list, using the partial argument* |
+
+### Using.Math
+| Function | Description |
+| ------------- | ------------- |
+| `.withinRange(x, min, max)`: boolean | *Returns if x is within min and max* |
+| `.lerp(x0, x1, a)`: number | *Returns the lerped value of x0 to x1* |
