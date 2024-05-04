@@ -1,4 +1,4 @@
-# RBXUtils v1.2
+# RBXUtils v1.2.1
 RBXUtils is a versatile Lua module for Roblox, offering a range of utility functions to help do scripting tasks. From simplifying common operations to providing specialized tools for game mechanics, user interfaces, and more, it enables developers to accelerate game creation. RBXUtils serves as a time-saving toolkit, allowing developers to easily use built-in functions, without needing to make custom ones that would use more time to make.
 
 | [Get Model on Roblox](https://create.roblox.com/store/asset/16656051786) | [Get Model on Github](https://github.com/ApparentlyJamesGH/RBXScript/releases/latest) |
@@ -96,6 +96,7 @@ Vector = RBX.Using.Vector
 | `.toDict(list)`: Dictionary | *Turns the provided list into a Dictionary* |
 | `.getIndexes(list)`: array | *Returns the provided list's indexes* |
 | `.getValue(list)`: array | *Returns the provided list's values* |
+| `.cloneTable(Table)`: array | *Returns the cloned table* |
 
 ### Using.Math
 | Function | Description |
