@@ -76,6 +76,8 @@ Vector = RBX.Using.Vector
 | `.scaleToOffset(scale, proportions)`: Vector2 | *Returns the UI scale as offset* |
 | `.vec2UDim(vector2, inScale)`: UDim2 | *Returns converted UDim2 from Vector2* |
 | `.notify(title, text, duration, icon)`: nil | *Sends a Roblox Core notification to client* |
+| `.scaleUDim(UDIm)`: UDim2 | *Automatically scales the UDIm2 to Scale* |
+| `.offsetUDim(UDIm)`: UDim2 | *Automatically offsets the UDIm2 to Offset* |
 
 ### Using.Animator
 | Function | Description |
@@ -97,6 +99,7 @@ Vector = RBX.Using.Vector
 | `.getIndexes(list)`: array | *Returns the provided list's indexes* |
 | `.getValue(list)`: array | *Returns the provided list's values* |
 | `.cloneTable(Table)`: array | *Returns the cloned table* |
+| `.repeatUntil(repeatCallback, conditionCallback, newThread)`: nil | *Repeats the repeatCallback until the conditionCallback is equal to true* |
 
 ### Using.Math
 | Function | Description |
